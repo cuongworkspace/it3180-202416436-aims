@@ -40,7 +40,7 @@ class Cart:
         
     def search_by_title(self, title):
         for dvd in self.items:
-            if dvd.title.strip().lower() == title.strip().lower():
+            if title.strip().lower() in dvd.title.lower():
                 return dvd
         return None
 

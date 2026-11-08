@@ -20,3 +20,8 @@ All notable changes to AIMS-mini will be documented in this file.
 
 ### Changed
 - Reorganize source code into the `aims` Python package.
+
+## [1.0.1] - 2026-11-08
+
+### Fixed
+- Fix case-insensitive partial DVD title search (#22).
