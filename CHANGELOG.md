@@ -23,3 +23,10 @@ All notable changes to AIMS-mini will be documented in this file.
 
 ### Changed
 - Reorganize source code into the `aims` Python package.
+
+
+## [1.1.0] - 2026-11-08
+
+### Added
+- Add DVD search by category.
+- Add cart sorting by title and cost.
