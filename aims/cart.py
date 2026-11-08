@@ -38,3 +38,9 @@ class Cart:
 
         print(f"Total cost: {self.total_cost():.2f} $")
         
+    def search_by_title(self, title):
+        for dvd in self.items:
+            if dvd.title.lower() == title.lower():
+                return dvd
+        return None
+    
