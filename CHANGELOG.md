@@ -3,6 +3,18 @@
 All notable changes to AIMS-mini will be documented in this file.
 
 ## [Unreleased]
+## [1.1.0] - 2026-11-08
+
+### Added
+- Add DVD search by category.
+- Add cart sorting by title and cost.
+
+
+## [1.0.1] - 2026-11-09
+
+### Fixed
+- Fix case-insensitive partial DVD title search (#22).
+
 
 ## [1.0.0] - 2026-11-08
 
@@ -25,8 +37,6 @@ All notable changes to AIMS-mini will be documented in this file.
 - Reorganize source code into the `aims` Python package.
 
 
-## [1.1.0] - 2026-11-08
 
-### Added
-- Add DVD search by category.
-- Add cart sorting by title and cost.
+
+
