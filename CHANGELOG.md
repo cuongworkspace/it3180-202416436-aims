@@ -12,6 +12,9 @@ All notable changes to AIMS-mini will be documented in this file.
 - Add `Cart.discounted_total()` to calculate discounted totals.
 - Add unit tests for cart limits and discounts.
 - Add Pull Request template and use case documentation.
+- Add `Cart.sort_by_title()` to sort DVDs alphabetically.
+- Add `Cart.sort_by_cost()` to sort DVDs by ascending price.
+- Add unit tests for cart sorting.
 
 ### Fixed
 - Fix cart capacity limit to reject the 21st DVD.
