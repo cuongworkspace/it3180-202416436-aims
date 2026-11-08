@@ -37,6 +37,12 @@ class Cart:
             print(f"{index}. {dvd.title} - {dvd.cost:.2f} $")
 
         print(f"Total cost: {self.total_cost():.2f} $")
+
+    def search_by_category(self, category):
+        return [
+            dvd for dvd in self.items
+            if dvd.category.lower() == category.lower()
+        ]
         
     def search_by_title(self, title):
         for dvd in self.items:
