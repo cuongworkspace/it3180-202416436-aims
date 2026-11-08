@@ -9,7 +9,7 @@ class Cart:
 
     def add_dvd(self, dvd):
         if len(self.items) >= MAX_NUMBERS_ORDERED:
-            print("Cart limit reached")
+            print("Cannot add more DVDs")
             return False
         self.items.append(dvd)
         print("The disc has been added")
