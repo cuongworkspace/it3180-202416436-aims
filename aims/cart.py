@@ -43,4 +43,11 @@ class Cart:
             if dvd.title.strip().lower() == title.strip().lower():
                 return dvd
         return None
+
+    def discounted_total(self, percent):
+        if percent < 0 or percent > 100:
+            raise ValueError("Discount must be between 0 and 100")
+
+        return self.total_cost() * (1 - percent / 100)
+    
     
